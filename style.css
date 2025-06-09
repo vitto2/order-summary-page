@@ -18,13 +18,60 @@ body {
 	max-width: 400px;
 }
 .info-container {
+	display: flex;
+	flex-direction: column;
 	background: #fff;
 	padding: 50px;
 	border-radius: 0 0 20px 20px;
+	text-align: center;
+	gap: 25px;
 }
 
 .illustration {
 	max-width: 100%;
 	display: block;
 	border-radius: 20px 20px 0 0;
+}
+
+.info-container h1 {
+	font-size: 24px;
+	font-weight: 800;
+	color: #223256;
+}
+
+.info-container p {
+	color: #797e94;
+	font-weight: 500;
+}
+
+.section-details {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+	background: #f8f9fe;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.section-details a {
+	grid-column: 3;
+	font-size: 14px;
+	text-decoration: none;
+	color: #726bcb;
+	font-weight: bold;
+}
+
+.section-value-details {
+	grid-column: 1;
+	display: flex;
+	gap: 15px;
+}
+
+.section-value-details p {
+	font-weight: bold;
+	color: #242e49;
+}
+
+.section-value-details span {
+	color: #8c91a4;
 }

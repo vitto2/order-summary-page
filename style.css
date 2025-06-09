@@ -15,8 +15,9 @@ body {
 }
 
 .main {
+  padding: 20px;
 	max-width: 25rem;
-	min-width: 23.43rem;
+	min-width: 23.75rem;
 }
 
 .info-container {
